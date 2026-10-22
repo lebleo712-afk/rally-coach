@@ -9,3 +9,22 @@
 .event.short small{color:#c2502d;font-weight:600}
 .callout.warn{background:#fdece4;color:#8c3d22}
 .short-text{color:#c2502d}
+
+/* 循环赛积分表 */
+.ct-panel{padding:18px 22px 22px;margin-bottom:18px}
+.ct-head{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap;margin:0 0 12px}
+.ct-head h3{margin:0}
+.crosstable{min-width:0;width:100%;border-collapse:collapse;font-size:12px}
+.crosstable th,.crosstable td{padding:8px 6px;border:1px solid var(--line);text-align:center;white-space:nowrap;font-variant-numeric:tabular-nums}
+.crosstable th{background:#fafbf6;color:var(--muted);font-weight:400;font-size:11px}
+.crosstable .ct-name{text-align:left;padding-left:10px;max-width:140px;overflow:hidden;text-overflow:ellipsis}
+.ct-no{display:inline-block;width:18px;color:var(--muted);font-size:10px}
+.ct-self{background:repeating-linear-gradient(45deg,#eef1e7 0 4px,#fafbf6 4px 8px)}
+.ct-btn{border:0;border-radius:5px;padding:4px 8px;font:inherit;font-size:12px;cursor:pointer}
+.ct-win{background:#e3eedc;color:#3f6b4c;font-weight:600}
+.ct-loss{background:#fbeee6;color:#a6613a}
+.ct-todo{background:transparent;color:var(--muted);border:1px dashed #c9cfc1}
+.ct-btn:hover{filter:brightness(.96)}
+.ct-btn:focus-visible{outline:2px solid var(--green);outline-offset:1px}
+.ct-rank{font-weight:600}
+.ct-rank.first{color:var(--orange)}
