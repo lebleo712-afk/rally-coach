@@ -28,3 +28,11 @@
 .ct-btn:focus-visible{outline:2px solid var(--green);outline-offset:1px}
 .ct-rank{font-weight:600}
 .ct-rank.first{color:var(--orange)}
+
+/* 访问口令 */
+.lock{min-height:100vh;display:grid;place-items:center;padding:16px}
+.lock form,.lock-card{width:min(360px,100%);padding:28px;display:grid;gap:12px}
+.lock h2{margin:8px 0 0}
+.lock .error{margin:0}
+.lock input{padding:11px 12px;border:1px solid var(--line);border-radius:9px;font-size:16px;letter-spacing:.08em}
+.lock input:focus-visible{outline:2px solid var(--green)}
